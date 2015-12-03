@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/gen_test_char.dir/tools/gen_test_char.c.o  -o gen_test_char -rdynamic 

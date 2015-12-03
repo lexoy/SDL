@@ -1,0 +1,303 @@
+The target system is: Linux -  - 
+The host system is: Linux - 3.19.0-33-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc 
+Build flags: -mfloat-abi=hard
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/yocto/work/github/sdl_core/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ 
+Build flags: -mfloat-abi=hard
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/yocto/work/github/sdl_core/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc 
+Build flags: -mfloat-abi=hard
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/yocto/work/github/sdl_core/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ 
+Build flags: -mfloat-abi=hard
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/yocto/work/github/sdl_core/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3400160316/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3400160316.dir/build.make CMakeFiles/cmTryCompileExec3400160316.dir/build
+make[1]: Entering directory `/home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3400160316.dir/testCCompiler.c.o
+/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc   -mfloat-abi=hard    -o CMakeFiles/cmTryCompileExec3400160316.dir/testCCompiler.c.o   -c /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3400160316
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3400160316.dir/link.txt --verbose=1
+/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc  -mfloat-abi=hard     CMakeFiles/cmTryCompileExec3400160316.dir/testCCompiler.c.o  -o cmTryCompileExec3400160316 -rdynamic 
+make[1]: Leaving directory `/home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec153656769/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec153656769.dir/build.make CMakeFiles/cmTryCompileExec153656769.dir/build
+make[1]: Entering directory `/home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec153656769.dir/CMakeCCompilerABI.c.o
+/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc   -mfloat-abi=hard    -o CMakeFiles/cmTryCompileExec153656769.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec153656769
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec153656769.dir/link.txt --verbose=1
+/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc  -mfloat-abi=hard   -v CMakeFiles/cmTryCompileExec153656769.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec153656769 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc
+COLLECT_LTO_WRAPPER=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/lto-wrapper
+Target: arm-poky-linux-gnueabi
+Configured with: /home/yocto/work/yocto/fsl-release-bsp/build/tmp/work-shared/gcc-4.9.1-r0/gcc-4.9.1/configure --build=x86_64-linux --host=x86_64-linux --target=arm-poky-linux-gnueabi --prefix=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr --exec_prefix=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr --bindir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi --sbindir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi --libexecdir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi --datadir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/share --sysconfdir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/etc --sharedstatedir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/com --localstatedir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/var --libdir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi --includedir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/include --oldincludedir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/include --infodir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/share/info --mandir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --disable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-poky-linux-gnueabi- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/include/c++/4.9.1 --with-sysroot=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd --with-build-sysroot=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd --enable-poison-system-directories --with-mpfr=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr --with-system-zlib --disable-nls --with-arch=armv7-a
+Thread model: posix
+gcc version 4.9.1 (GCC) 
+COMPILER_PATH=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/
+LIBRARY_PATH=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/lib/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/
+COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-v' '-o' 'cmTryCompileExec153656769' '-rdynamic' '-march=armv7-a' '-mtls-dialect=gnu'
+ /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/collect2 -plugin /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/liblto_plugin.so -plugin-opt=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSs7eEv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTryCompileExec153656769 /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/crt1.o /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/crti.o /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1/crtbegin.o -L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1 -L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/lib -L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1 -L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib CMakeFiles/cmTryCompileExec153656769.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1/crtend.o /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/crtn.o
+make[1]: Leaving directory `/home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-poky-linux-gnueabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec153656769/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec153656769.dir/build.make CMakeFiles/cmTryCompileExec153656769.dir/build]
+  ignore line: [make[1]: Entering directory `/home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec153656769.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc   -mfloat-abi=hard    -o CMakeFiles/cmTryCompileExec153656769.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec153656769]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec153656769.dir/link.txt --verbose=1]
+  ignore line: [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc  -mfloat-abi=hard   -v CMakeFiles/cmTryCompileExec153656769.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec153656769 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/lto-wrapper]
+  ignore line: [Target: arm-poky-linux-gnueabi]
+  ignore line: [Configured with: /home/yocto/work/yocto/fsl-release-bsp/build/tmp/work-shared/gcc-4.9.1-r0/gcc-4.9.1/configure --build=x86_64-linux --host=x86_64-linux --target=arm-poky-linux-gnueabi --prefix=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr --exec_prefix=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr --bindir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi --sbindir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi --libexecdir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi --datadir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/share --sysconfdir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/etc --sharedstatedir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/com --localstatedir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/var --libdir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi --includedir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/include --oldincludedir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/include --infodir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/share/info --mandir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --disable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-poky-linux-gnueabi- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/include/c++/4.9.1 --with-sysroot=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd --with-build-sysroot=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd --enable-poison-system-directories --with-mpfr=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr --with-system-zlib --disable-nls --with-arch=armv7-a]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.1 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/]
+  ignore line: [LIBRARY_PATH=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/lib/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-v' '-o' 'cmTryCompileExec153656769' '-rdynamic' '-march=armv7-a' '-mtls-dialect=gnu']
+  link line: [ /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/collect2 -plugin /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/liblto_plugin.so -plugin-opt=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSs7eEv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTryCompileExec153656769 /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/crt1.o /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/crti.o /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1/crtbegin.o -L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1 -L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/lib -L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1 -L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib CMakeFiles/cmTryCompileExec153656769.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1/crtend.o /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/crtn.o]
+    arg [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccSs7eEv.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec153656769] ==> ignore
+    arg [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/crt1.o] ==> ignore
+    arg [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/crti.o] ==> ignore
+    arg [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1/crtbegin.o] ==> ignore
+    arg [-L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1] ==> dir [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1]
+    arg [-L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/lib] ==> dir [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/lib]
+    arg [-L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1] ==> dir [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1]
+    arg [-L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib] ==> dir [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec153656769.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1/crtend.o] ==> ignore
+    arg [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1] ==> [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1]
+  collapse library dir [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/lib] ==> [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/lib]
+  collapse library dir [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1] ==> [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1]
+  collapse library dir [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib] ==> [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1;/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/lib;/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1;/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib]
+  implicit fwks: []
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ 
+Build flags: -mfloat-abi=hard
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/yocto/work/github/sdl_core/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1847220931/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1847220931.dir/build.make CMakeFiles/cmTryCompileExec1847220931.dir/build
+make[1]: Entering directory `/home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1847220931.dir/testCXXCompiler.cxx.o
+/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++    -mfloat-abi=hard    -o CMakeFiles/cmTryCompileExec1847220931.dir/testCXXCompiler.cxx.o -c /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1847220931
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1847220931.dir/link.txt --verbose=1
+/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++   -mfloat-abi=hard     CMakeFiles/cmTryCompileExec1847220931.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1847220931 -rdynamic 
+make[1]: Leaving directory `/home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4000499441/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4000499441.dir/build.make CMakeFiles/cmTryCompileExec4000499441.dir/build
+make[1]: Entering directory `/home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4000499441.dir/CMakeCXXCompilerABI.cpp.o
+/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++    -mfloat-abi=hard    -o CMakeFiles/cmTryCompileExec4000499441.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec4000499441
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4000499441.dir/link.txt --verbose=1
+/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++   -mfloat-abi=hard   -v CMakeFiles/cmTryCompileExec4000499441.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4000499441 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++
+COLLECT_LTO_WRAPPER=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/lto-wrapper
+Target: arm-poky-linux-gnueabi
+Configured with: /home/yocto/work/yocto/fsl-release-bsp/build/tmp/work-shared/gcc-4.9.1-r0/gcc-4.9.1/configure --build=x86_64-linux --host=x86_64-linux --target=arm-poky-linux-gnueabi --prefix=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr --exec_prefix=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr --bindir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi --sbindir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi --libexecdir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi --datadir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/share --sysconfdir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/etc --sharedstatedir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/com --localstatedir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/var --libdir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi --includedir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/include --oldincludedir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/include --infodir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/share/info --mandir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --disable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-poky-linux-gnueabi- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/include/c++/4.9.1 --with-sysroot=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd --with-build-sysroot=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd --enable-poison-system-directories --with-mpfr=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr --with-system-zlib --disable-nls --with-arch=armv7-a
+Thread model: posix
+gcc version 4.9.1 (GCC) 
+COMPILER_PATH=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/
+LIBRARY_PATH=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/lib/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/
+COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-v' '-o' 'cmTryCompileExec4000499441' '-rdynamic' '-shared-libgcc' '-march=armv7-a' '-mtls-dialect=gnu'
+ /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/collect2 -plugin /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/liblto_plugin.so -plugin-opt=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccw725xx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTryCompileExec4000499441 /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/crt1.o /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/crti.o /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1/crtbegin.o -L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1 -L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/lib -L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1 -L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib CMakeFiles/cmTryCompileExec4000499441.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1/crtend.o /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/crtn.o
+make[1]: Leaving directory `/home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-poky-linux-gnueabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec4000499441/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec4000499441.dir/build.make CMakeFiles/cmTryCompileExec4000499441.dir/build]
+  ignore line: [make[1]: Entering directory `/home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec4000499441.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++    -mfloat-abi=hard    -o CMakeFiles/cmTryCompileExec4000499441.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec4000499441]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4000499441.dir/link.txt --verbose=1]
+  ignore line: [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++   -mfloat-abi=hard   -v CMakeFiles/cmTryCompileExec4000499441.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4000499441 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/lto-wrapper]
+  ignore line: [Target: arm-poky-linux-gnueabi]
+  ignore line: [Configured with: /home/yocto/work/yocto/fsl-release-bsp/build/tmp/work-shared/gcc-4.9.1-r0/gcc-4.9.1/configure --build=x86_64-linux --host=x86_64-linux --target=arm-poky-linux-gnueabi --prefix=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr --exec_prefix=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr --bindir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi --sbindir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi --libexecdir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi --datadir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/share --sysconfdir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/etc --sharedstatedir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/com --localstatedir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/var --libdir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi --includedir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/include --oldincludedir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/include --infodir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/share/info --mandir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --disable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-poky-linux-gnueabi- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-gxx-include-dir=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/include/c++/4.9.1 --with-sysroot=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd --with-build-sysroot=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd --enable-poison-system-directories --with-mpfr=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr --with-system-zlib --disable-nls --with-arch=armv7-a]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.1 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/]
+  ignore line: [LIBRARY_PATH=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/lib/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1/:/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-v' '-o' 'cmTryCompileExec4000499441' '-rdynamic' '-shared-libgcc' '-march=armv7-a' '-mtls-dialect=gnu']
+  link line: [ /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/collect2 -plugin /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/liblto_plugin.so -plugin-opt=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccw725xx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTryCompileExec4000499441 /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/crt1.o /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/crti.o /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1/crtbegin.o -L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1 -L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/lib -L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1 -L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib CMakeFiles/cmTryCompileExec4000499441.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1/crtend.o /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/crtn.o]
+    arg [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccw725xx.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4000499441] ==> ignore
+    arg [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/crt1.o] ==> ignore
+    arg [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/crti.o] ==> ignore
+    arg [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1/crtbegin.o] ==> ignore
+    arg [-L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1] ==> dir [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1]
+    arg [-L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/lib] ==> dir [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/lib]
+    arg [-L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1] ==> dir [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1]
+    arg [-L/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib] ==> dir [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec4000499441.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1/crtend.o] ==> ignore
+    arg [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1] ==> [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1]
+  collapse library dir [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/lib] ==> [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/lib]
+  collapse library dir [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1] ==> [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1]
+  collapse library dir [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib] ==> [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1;/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/lib;/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.1;/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib]
+  implicit fwks: []
+
+

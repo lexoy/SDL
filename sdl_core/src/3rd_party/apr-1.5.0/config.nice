@@ -1,0 +1,19 @@
+#! /bin/sh
+#
+# Created by configure
+
+CC="arm-poky-linux-gnueabi-gcc"; export CC
+CFLAGS="-mfloat-abi=hard"; export CFLAGS
+"./configure" \
+"CC=arm-poky-linux-gnueabi-gcc" \
+"--host=arm-linux" \
+"CFLAGS=-mfloat-abi=hard" \
+"--prefix=/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi" \
+"ac_cv_file__dev_zero=yes" \
+"ac_cv_func_setpgrp_void=yes" \
+"apr_cv_tcp_nodelay_with_cork=yes" \
+"apr_cv_process_shared_works=yes" \
+"apr_cv_mutex_robust_shared=yes" \
+"ap_void_ptr_lt_long=no" \
+"host_alias=arm-linux" \
+"$@"

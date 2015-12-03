@@ -1,0 +1,2 @@
+/usr/bin/ar cr liblibaprapp-1.a  CMakeFiles/libaprapp-1.dir/misc/win32/apr_app.c.o CMakeFiles/libaprapp-1.dir/misc/win32/internal.c.o
+/usr/bin/ranlib liblibaprapp-1.a

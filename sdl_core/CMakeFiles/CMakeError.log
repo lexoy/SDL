@@ -1,0 +1,40 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec131149790/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec131149790.dir/build.make CMakeFiles/cmTryCompileExec131149790.dir/build
+make[1]: Entering directory `/home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec131149790.dir/testCCompiler.c.o
+/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc    -o CMakeFiles/cmTryCompileExec131149790.dir/testCCompiler.c.o   -c /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec131149790
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec131149790.dir/link.txt --verbose=1
+/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc       CMakeFiles/cmTryCompileExec131149790.dir/testCCompiler.c.o  -o cmTryCompileExec131149790 -rdynamic 
+/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/ld: error: cmTryCompileExec131149790 uses VFP register arguments, CMakeFiles/cmTryCompileExec131149790.dir/testCCompiler.c.o does not
+/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/ld: failed to merge target specific data of file CMakeFiles/cmTryCompileExec131149790.dir/testCCompiler.c.o
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec131149790] Error 1
+make[1]: Leaving directory `/home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec131149790/fast] Error 2
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2159474381/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2159474381.dir/build.make CMakeFiles/cmTryCompileExec2159474381.dir/build
+make[1]: Entering directory `/home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2159474381.dir/testCXXCompiler.cxx.o
+/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++     -o CMakeFiles/cmTryCompileExec2159474381.dir/testCXXCompiler.cxx.o -c /home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2159474381
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2159474381.dir/link.txt --verbose=1
+/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++        CMakeFiles/cmTryCompileExec2159474381.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2159474381 -rdynamic 
+/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/ld: error: cmTryCompileExec2159474381 uses VFP register arguments, CMakeFiles/cmTryCompileExec2159474381.dir/testCXXCompiler.cxx.o does not
+/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.9.1/ld: failed to merge target specific data of file CMakeFiles/cmTryCompileExec2159474381.dir/testCXXCompiler.cxx.o
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2159474381] Error 1
+make[1]: Leaving directory `/home/yocto/work/github/sdl_core/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2159474381/fast] Error 2
+
+

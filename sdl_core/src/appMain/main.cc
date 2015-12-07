@@ -39,6 +39,7 @@
 #include <string>
 #include <iostream>  // cpplint: Streams are highly discouraged.
 #include <fstream>   // cpplint: Streams are highly discouraged.
+#include <stdarg.h>
 
 // ----------------------------------------------------------------------------
 
@@ -63,6 +64,31 @@
 #include "networking.h"  // cpplint: Include the directory when naming .h files
 
 // ----------------------------------------------------------------------------
+
+#define logger_ 0
+#undef LOG4CXX_WARN
+#undef LOG4CXX_FATAL
+#undef LOG4CXX_INFO
+#undef LOG4CXX_ERROR
+#define LOG4CXX_WARN(dummy, ...)                       \
+  do {                                          \
+    printf("[LOG4CXX_WARN]  Log = %s\n", #__VA_ARGS__);  \
+  } while (0)
+
+#define LOG4CXX_FATAL(dummy, ...)                       \
+  do {                                           \
+    printf("[LOG4CXX_FATAL]  Log = %s\n", #__VA_ARGS__);  \
+  } while (0)
+  
+#define LOG4CXX_INFO(dummy, ...)                       \
+  do {                                          \
+    printf("[LOG4CXX_INFO]  Log = %s\n", #__VA_ARGS__);  \
+  } while (0)
+  
+#define LOG4CXX_ERROR(dummy, ...)                       \
+  do {                                           \
+    printf("[LOG4CXX_ERROR]  Log = %s\n", #__VA_ARGS__);  \
+  } while (0)
 
 
 CREATE_LOGGERPTR_GLOBAL(logger_, "appMain")

@@ -62,7 +62,7 @@ option(BUILD_TESTS "Possibility to build and run tests" OFF)
 option(TIME_TESTER "Enable profiling time test util" ON)
 option(ENABLE_LOG "Logging feature" OFF)
 option(ENABLE_GCOV "gcov code coverage feature" OFF)
-option(ENABLE_SECURITY "Security Ford protocol protection" ON)
+option(ENABLE_SECURITY "Security Ford protocol protection" OFF)
 option(EXTENDED_POLICY_FLAG "Build with specific features and extended functionality" OFF)
 
 set(OS_TYPE_OPTION 	"$ENV{OS_TYPE}")

@@ -262,7 +262,7 @@ IF(APU_HAVE_ODBC)
 ENDIF()
 
 IF(APR_HAS_LDAP)
-  ADD_LIBRARY(apr_ldap-1 SHARED ldap/apr_ldap_init.c ldap/apr_ldap_option.c 
+  ADD_LIBRARY(apr_ldap-1 SHARED ldap/apr_ldap_init.c ldap/apr_ldap_option.c
               ldap/apr_ldap_rebind.c libaprutil.rc)
   SET(install_targets ${install_targets} apr_ldap-1)
   SET(install_bin_pdb ${install_bin_pdb} ${PROJECT_BINARY_DIR}/apr_ldap-1.pdb)
@@ -279,9 +279,9 @@ IF(APR_BUILD_TESTAPR)
   ADD_CUSTOM_TARGET(check COMMAND ${CMAKE_CTEST_COMMAND} --verbose)
 
   # copy data files to build directory so that we can run programs from there
-  EXECUTE_PROCESS(COMMAND ${CMAKE_COMMAND} -E make_directory 
+  EXECUTE_PROCESS(COMMAND ${CMAKE_COMMAND} -E make_directory
                   ${PROJECT_BINARY_DIR}/data)
-  EXECUTE_PROCESS(COMMAND ${CMAKE_COMMAND} -E copy_if_different 
+  EXECUTE_PROCESS(COMMAND ${CMAKE_COMMAND} -E copy_if_different
                   ${PROJECT_SOURCE_DIR}/test/data/billion-laughs.xml
                   ${PROJECT_BINARY_DIR}/data/billion-laughs.xml)
 

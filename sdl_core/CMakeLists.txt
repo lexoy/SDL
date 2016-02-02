@@ -34,7 +34,7 @@ set (PROJECT smartDeviceLinkCore)
 
 # Configure Cross-compile
 SET(CMAKE_SYSTEM_NAME Linux)
-SET(TOOLCHAIN_DIR "/home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi")
+SET(TOOLCHAIN_DIR "/home/yocto/work/yocto/fsl-release-bsp-patch/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi")
 SET(CMAKE_FIND_ROOT_PATH ${TOOLCHAIN_DIR})
 SET(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
 #SET(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
@@ -43,6 +43,7 @@ SET(CMAKE_C_COMPILER ${TOOLCHAIN_DIR}/arm-poky-linux-gnueabi-gcc)
 SET(CMAKE_CXX_COMPILER ${TOOLCHAIN_DIR}/arm-poky-linux-gnueabi-g++)
 SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -mfloat-abi=hard")
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -mfloat-abi=hard")
+SET(OE_QMAKE_PATH_EXTERNAL_HOST_BINS "/opt/poky/1.7/sysroots/x86_64-pokysdk-linux/usr/bin/qt5")
 
 
 #Jenkins integration section
@@ -60,7 +61,7 @@ option(BUILD_RWLOCK_SUPPORT "rwlocks support" OFF)
 option(BUILD_BACKTRACE_SUPPORT "backtrace support" ON)
 option(BUILD_TESTS "Possibility to build and run tests" OFF)
 option(TIME_TESTER "Enable profiling time test util" ON)
-option(ENABLE_LOG "Logging feature" OFF)
+option(ENABLE_LOG "Logging feature" ON)
 option(ENABLE_GCOV "gcov code coverage feature" OFF)
 option(ENABLE_SECURITY "Security Ford protocol protection" OFF)
 option(EXTENDED_POLICY_FLAG "Build with specific features and extended functionality" OFF)

@@ -25,14 +25,14 @@ else (SQLITE3_LIBRARIES AND SQLITE3_INCLUDE_DIRS)
   endif (PKG_CONFIG_FOUND)
   
   find_path(SQLITE3_INCLUDE_DIR sqlite3.h
-            /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/include 
+            /home/yocto/work/yocto/fsl-release-bsp-patch/build/tmp/sysroots/imx6dlsabresd/usr/include 
             NO_DEFAULT_PATH)
 
   find_library(SQLITE3_LIBRARY
     NAMES
       sqlite3
     PATHS
-      /home/yocto/work/yocto/fsl-release-bsp/build/tmp/sysroots/imx6dlsabresd/usr/lib
+      /home/yocto/work/yocto/fsl-release-bsp-patch/build/tmp/sysroots/imx6dlsabresd/usr/lib
       NO_DEFAULT_PATH
   )
 

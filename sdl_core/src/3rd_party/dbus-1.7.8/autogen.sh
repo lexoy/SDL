@@ -88,7 +88,7 @@ cd $ORIGDIR
 if test x"$NOCONFIGURE" = x; then
   run_configure=true
   for arg in $*; do
-    case $arg in 
+    case $arg in
         --no-configure)
             run_configure=false
             ;;

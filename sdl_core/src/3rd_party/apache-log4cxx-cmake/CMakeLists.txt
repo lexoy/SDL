@@ -41,9 +41,12 @@ file(MAKE_DIRECTORY
 )
 
 set(COMMON_CONFIGURE_FLAGS
+  "--host=arm-linux"
   "--with-apr=../apr-build"
   "--with-apr-util=../apr-util-build"
   "LDFLAGS=-L${EXPAT_LIBS_DIRECTORY}"
+  "CFLAGS=-mfloat-abi=hard -D__ARM_PCS_VFP"
+  "CXXFLAGS=-mfloat-abi=hard -D__ARM_PCS_VFP"
 )
 
 if(CMAKE_SYSTEM_NAME STREQUAL "QNX")

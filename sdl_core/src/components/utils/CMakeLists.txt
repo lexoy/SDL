@@ -46,7 +46,7 @@ set (SOURCES
     ${UTILS_SRC_DIR}/bitstream.cc
     ${UTILS_SRC_DIR}/conditional_variable_posix.cc
     ${UTILS_SRC_DIR}/file_system.cc
-    ${UTILS_SRC_DIR}/threads/posix_thread.cc   
+    ${UTILS_SRC_DIR}/threads/posix_thread.cc
     ${UTILS_SRC_DIR}/threads/thread_delegate.cc
     ${UTILS_SRC_DIR}/threads/thread_validator.cc
     ${UTILS_SRC_DIR}/threads/async_runner.cc
@@ -85,7 +85,7 @@ endif()
 add_library("Utils" SHARED ${SOURCES})
 
 if(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
- list(APPEND LIBRARIES dl) 
+ list(APPEND LIBRARIES dl)
 endif()
 
 

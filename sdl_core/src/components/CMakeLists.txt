@@ -96,4 +96,3 @@ if (${QT_HMI})
 # --- Qt HMI
     add_subdirectory(./qt_hmi)
 endif ()
-

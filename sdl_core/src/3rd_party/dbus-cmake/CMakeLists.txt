@@ -45,9 +45,12 @@ file(MAKE_DIRECTORY
 )
 
 set(COMMON_CONFIGURE_FLAGS
+  "--host=arm-linux"
   "--enable-tests=no"
   "CFLAGS=-I${EXPAT_INCLUDE_DIRECTORY}"
   "LDFLAGS=-L${EXPAT_LIBS_DIRECTORY}"
+  "CFLAGS=-mfloat-abi=hard -D__ARM_PCS_VFP"
+  "CXXFLAGS=-mfloat-abi=hard -D__ARM_PCS_VFP"
 )
 
 if (CMAKE_SYSTEM_NAME STREQUAL "QNX")

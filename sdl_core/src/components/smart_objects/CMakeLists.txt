@@ -36,6 +36,8 @@ set(SMART_OBJECTS_SRC_DIR ${COMPONENTS_DIR}/smart_objects/src)
 include_directories (
   include
   ${COMPONENTS_DIR}/utils/include/
+  ${COMPONENTS_DIR}/../3rd_party/apache-log4cxx-0.10.0/src/main/include/
+  ${COMPONENTS_DIR}/../../../build/src/3rd_party/apache-log4cxx-build/src/main/include/
 )
 
 set (SOURCES
@@ -62,4 +64,3 @@ endif()
 if(BUILD_TESTS)
   add_subdirectory(test)
 endif()
-

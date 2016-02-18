@@ -5,7 +5,8 @@ include_directories (
   ./include/
   ../jsoncpp/include
   ../../components/utils/include
-
+  ../../3rd_party/apache-log4cxx-0.10.0/src/main/include
+  ../../../../build/src/3rd_party/apache-log4cxx-build/src/main/include/
 )
 
 set (MESSAGE_BROKER_SOURCES

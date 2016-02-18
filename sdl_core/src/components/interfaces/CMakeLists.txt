@@ -31,8 +31,10 @@
 include_directories (
   ${COMPONENTS_DIR}/utils/include/
   ${COMPONENTS_DIR}/formatters/include
+  ${COMPONENTS_DIR}/../3rd_party/apache-log4cxx-0.10.0/src/main/include
+  ${COMPONENTS_DIR}/../../../build/src/3rd_party/apache-log4cxx-build/src/main/include/
 )
-  
+
 GenerateInterface("v4_protocol_v1_2_no_extra.xml" "NsSmartDeviceLinkRPC::V1" "sdlrpcv1")
 GenerateInterface("MOBILE_API.xml" "mobile_apis" "sdlrpcv2")
 

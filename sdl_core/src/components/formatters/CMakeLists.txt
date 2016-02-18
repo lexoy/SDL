@@ -40,6 +40,8 @@ include_directories (
   ${JSONCPP_INCLUDE_DIRECTORY}
   ${MESSAGE_BROKER_INCLUDE_DIRECTORY}
   ${COMPONENTS_DIR}/smart_objects/include
+  ${COMPONENTS_DIR}/../3rd_party/apache-log4cxx-0.10.0/src/main/include/
+  ${COMPONENTS_DIR}/../../../build/src/3rd_party/apache-log4cxx-build/src/main/include/
 )
 
 set (SOURCES

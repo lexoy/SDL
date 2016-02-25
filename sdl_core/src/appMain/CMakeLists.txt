@@ -140,6 +140,7 @@ include_directories (
   ${LOG4CXX_INCLUDE_DIRECTORY}
   ${CMAKE_SOURCE_DIR}/src/3rd_party/dbus-1.7.8
   ${CMAKE_SOURCE_DIR}/src/3rd_party/dbus-1.7.8/dbus/
+  ${CMAKE_SOURCE_DIR}/../build/src/3rd_party/apache-log4cxx-build/src/main/include
 )
 
 set (SOURCES
@@ -181,7 +182,7 @@ if(EXISTS ${CMAKE_SOURCE_DIR}/.git)
       file(READ ${INI_FILE} FILE_CONTENT)
       set(LINE SDLVersion)
       set(SEARCH_REGEX "${LINE}([^/\r/\n]+)")
-      string(REGEX REPLACE "${SEARCH_REGEX}" "${LINE} = ${GITCOMMIT}" 
+      string(REGEX REPLACE "${SEARCH_REGEX}" "${LINE} = ${GITCOMMIT}"
              MODIFIED_FILE_CONTENT "${FILE_CONTENT}")
       file(WRITE "${INI_FILE}" "${MODIFIED_FILE_CONTENT}")
     endif()

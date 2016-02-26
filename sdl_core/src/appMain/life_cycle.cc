@@ -46,6 +46,7 @@
 
 using threads::Thread;
 
+#if 0
 #define logger_ 0
 #undef LOG4CXX_WARN
 #undef LOG4CXX_FATAL
@@ -60,16 +61,17 @@ using threads::Thread;
   do {                                           \
     printf("[LOG4CXX_FATAL]  Log = %s\n", #__VA_ARGS__);  \
   } while (0)
-  
+
 #define LOG4CXX_INFO(dummy, ...)                       \
   do {                                          \
     printf("[LOG4CXX_INFO]  Log = %s\n", #__VA_ARGS__);  \
   } while (0)
-  
+
 #define LOG4CXX_ERROR(dummy, ...)                       \
   do {                                           \
     printf("[LOG4CXX_ERROR]  Log = %s\n", #__VA_ARGS__);  \
   } while (0)
+#endif
 
 namespace main_namespace {
 

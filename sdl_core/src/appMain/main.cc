@@ -43,8 +43,8 @@
 
 // ----------------------------------------------------------------------------
 
-//#include "utils/log_message_loop_thread.h"
-//#include "utils/logger.h"
+#include "utils/log_message_loop_thread.h"
+#include "utils/logger.h"
 
 #include "./life_cycle.h"
 #include "signal_handlers.h"
@@ -144,7 +144,7 @@ bool InitHmi() {
  * \return EXIT_SUCCESS or EXIT_FAILURE
  */
 int32_t main(int32_t argc, char** argv) {
-
+  std::cout << "------------------------- Lexo : main : begin -------------------------" << std::endl;
   // --------------------------------------------------------------------------
   // Logger initialization
   INIT_LOGGER("log4cxx.properties");
